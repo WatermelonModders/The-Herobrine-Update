@@ -25,5 +25,14 @@
         "stream": true
       }
     ]
+  },
+  "thesavagenarwhal": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "the_history_update:cru_-_yung_logos",
+        "stream": true
+      }
+    ]
   }
 }

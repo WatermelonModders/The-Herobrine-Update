@@ -589,6 +589,27 @@
           }
         ]
       }
+    },
+    {
+      "name": "Looter",
+      "type": "biome",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "looter"
+    },
+    {
+      "name": "TheLooter",
+      "type": "dimension",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "the_looter",
+      "metadata": {
+        "ep": true
+      }
     }
   ],
   "variable_elements": [],
@@ -616,18 +637,29 @@
       ],
       "category": "music",
       "subtitle": ""
+    },
+    {
+      "name": "thesavagenarwhal",
+      "files": [
+        "cru_-_yung_logos"
+      ],
+      "category": "music",
+      "subtitle": ""
     }
   ],
   "language_map": {
     "en_us": {
+      "biome.the_history_update.looter": "Looter",
       "advancements.a.title": "A Tribute to the SavageNarwhal",
       "block.the_history_update.bluestone": "Bluestone",
       "item.the_history_update.the_lyre": "Lyre Frame Diagram",
       "subtitles.outsidermusic": "",
       "biome.the_history_update.the_lyre_biome": "The Lyre Biome",
+      "item.the_history_update.the_looter": "The Looter Portal Igniter",
       "biome.the_history_update.lye_biome": "Lye Biome",
       "item.the_history_update.ghoul_spawn_egg": "Ghoul Spawn Egg",
       "item.the_history_update.the_lyres": "The Lyres Portal Igniter",
+      "subtitles.thesavagenarwhal": "",
       "item.the_history_update.herobrine_spawn_egg": "Herobrine Spawn Egg",
       "advancements.a.descr": "Get the Tribute to TheSavageNarwhal Music Disc",
       "subtitles.yunglogos": "",
@@ -647,7 +679,7 @@
   "workspaceSettings": {
     "modid": "the_history_update",
     "modName": "The Herobrine Update",
-    "version": "1.7",
+    "version": "1.7.2",
     "description": "For once, we add Herobrine instead of deleting him.",
     "author": "Herobrine",
     "websiteURL": "https://mcreator.net",

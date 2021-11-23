@@ -30,7 +30,7 @@ public class MusicItem extends TheHistoryUpdateModElements.ModElement {
 
 	public static class MusicDiscItemCustom extends MusicDiscItem {
 		public MusicDiscItemCustom() {
-			super(0, TheHistoryUpdateModElements.sounds.get(new ResourceLocation("the_history_update:yunglogos")),
+			super(0, TheHistoryUpdateModElements.sounds.get(new ResourceLocation("the_history_update:thesavagenarwhal")),
 					new Item.Properties().group(ItemGroup.MISC).maxStackSize(1).rarity(Rarity.RARE));
 			setRegistryName("music");
 		}

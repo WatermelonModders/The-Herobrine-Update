@@ -52,6 +52,8 @@ public class TheHistoryUpdateModElements {
 				new net.minecraft.util.SoundEvent(new ResourceLocation("the_history_update", "justdance")));
 		sounds.put(new ResourceLocation("the_history_update", "yunglogos"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("the_history_update", "yunglogos")));
+		sounds.put(new ResourceLocation("the_history_update", "thesavagenarwhal"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("the_history_update", "thesavagenarwhal")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("the_history_update").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();
