@@ -77,6 +77,9 @@
         }
       }
     ],
+    "onOpen": {
+      "name": "BakingProcedure"
+    },
     "gridSettings": {
       "sx": 18,
       "sy": 18,

@@ -1,0 +1,16 @@
+{
+  "group": "the_history_update",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:flint_and_steel"
+    },
+    {
+      "item": "the_history_update:bluestone"
+    }
+  ],
+  "result": {
+    "item": "the_history_update:the_lyres",
+    "count": 1
+  }
+}

@@ -591,24 +591,50 @@
       }
     },
     {
-      "name": "Looter",
-      "type": "biome",
+      "name": "TheLyreLighterRecipe",
+      "type": "recipe",
       "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "looter"
+      "registry_name": "the_lyre_lighter_recipe"
     },
     {
-      "name": "TheLooter",
-      "type": "dimension",
-      "sortid": 26,
+      "name": "Cookingtablerecipe",
+      "type": "recipe",
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "the_looter",
+      "registry_name": "cookingtablerecipe"
+    },
+    {
+      "name": "BakingProcedure",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "baking_procedure",
       "metadata": {
-        "ep": true
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
       }
     }
   ],
@@ -649,13 +675,11 @@
   ],
   "language_map": {
     "en_us": {
-      "biome.the_history_update.looter": "Looter",
       "advancements.a.title": "A Tribute to the SavageNarwhal",
       "block.the_history_update.bluestone": "Bluestone",
       "item.the_history_update.the_lyre": "Lyre Frame Diagram",
       "subtitles.outsidermusic": "",
       "biome.the_history_update.the_lyre_biome": "The Lyre Biome",
-      "item.the_history_update.the_looter": "The Looter Portal Igniter",
       "biome.the_history_update.lye_biome": "Lye Biome",
       "item.the_history_update.ghoul_spawn_egg": "Ghoul Spawn Egg",
       "item.the_history_update.the_lyres": "The Lyres Portal Igniter",

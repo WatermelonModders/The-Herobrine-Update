@@ -29,6 +29,7 @@ import net.minecraft.entity.Entity;
 import net.minecraft.client.gui.ScreenManager;
 
 import net.mcreator.thehistoryupdate.procedures.ExitProcedure;
+import net.mcreator.thehistoryupdate.procedures.BakingProcedureProcedure;
 import net.mcreator.thehistoryupdate.TheHistoryUpdateModElements;
 import net.mcreator.thehistoryupdate.TheHistoryUpdateMod;
 
@@ -138,6 +139,12 @@ public class BakeGui extends TheHistoryUpdateModElements.ModElement {
 					this.addSlot(new Slot(inv, sj + (si + 1) * 9, 0 + 8 + sj * 18, 0 + 84 + si * 18));
 			for (si = 0; si < 9; ++si)
 				this.addSlot(new Slot(inv, si, 0 + 8 + si * 18, 0 + 142));
+
+			BakingProcedureProcedure
+					.executeProcedure(Stream
+							.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x),
+									new AbstractMap.SimpleEntry<>("y", y), new AbstractMap.SimpleEntry<>("z", z))
+							.collect(HashMap::new, (m, e) -> m.put(e.getKey(), e.getValue()), Map::putAll));
 		}
 
 		public Map<Integer, Slot> get() {
