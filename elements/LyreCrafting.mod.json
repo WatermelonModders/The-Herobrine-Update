@@ -1,0 +1,242 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 217,
+    "height": 196,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Lyre Portal Layout",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Lyre Portal Layout",
+          "x": 114,
+          "y": 35
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "stone.png",
+          "use1Xscale": false,
+          "name": "stone.png",
+          "x": 204,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "stone.png",
+          "use1Xscale": false,
+          "name": "stone.png",
+          "x": 204,
+          "y": 98
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "stone.png",
+          "use1Xscale": false,
+          "name": "stone.png",
+          "x": 204,
+          "y": 116
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "stone.png",
+          "use1Xscale": false,
+          "name": "stone.png",
+          "x": 204,
+          "y": 134
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "stone.png",
+          "use1Xscale": false,
+          "name": "stone.png",
+          "x": 204,
+          "y": 152
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "stone.png",
+          "use1Xscale": false,
+          "name": "stone.png",
+          "x": 204,
+          "y": 170
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "stone.png",
+          "use1Xscale": false,
+          "name": "stone.png",
+          "x": 204,
+          "y": 62
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "stone.png",
+          "use1Xscale": false,
+          "name": "stone.png",
+          "x": 186,
+          "y": 62
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "stone.png",
+          "use1Xscale": false,
+          "name": "stone.png",
+          "x": 168,
+          "y": 62
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "stone.png",
+          "use1Xscale": false,
+          "name": "stone.png",
+          "x": 150,
+          "y": 62
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "stone.png",
+          "use1Xscale": false,
+          "name": "stone.png",
+          "x": 150,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "stone.png",
+          "use1Xscale": false,
+          "name": "stone.png",
+          "x": 150,
+          "y": 98
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "stone.png",
+          "use1Xscale": false,
+          "name": "stone.png",
+          "x": 150,
+          "y": 116
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "stone.png",
+          "use1Xscale": false,
+          "name": "stone.png",
+          "x": 150,
+          "y": 134
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "stone.png",
+          "use1Xscale": false,
+          "name": "stone.png",
+          "x": 150,
+          "y": 152
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "stone.png",
+          "use1Xscale": false,
+          "name": "stone.png",
+          "x": 150,
+          "y": 170
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "stone.png",
+          "use1Xscale": false,
+          "name": "stone.png",
+          "x": 168,
+          "y": 170
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Light one box to make the portal light",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Light one box to make the portal light",
+          "x": 114,
+          "y": 197
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Exit",
+          "onClick": {
+            "name": "Exit"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "Exit",
+          "x": 240,
+          "y": 35
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "stone.png",
+          "use1Xscale": false,
+          "name": "stone.png",
+          "x": 186,
+          "y": 170
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

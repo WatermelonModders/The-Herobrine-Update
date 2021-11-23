@@ -1,0 +1,113 @@
+{
+  "_fv": 24,
+  "_type": "biome",
+  "definition": {
+    "name": "Looter",
+    "groundBlock": {
+      "value": "Blocks.IRON_BLOCK"
+    },
+    "undergroundBlock": {
+      "value": "Blocks.EMERALD_ORE"
+    },
+    "airColor": {
+      "value": -65536,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -10027213,
+      "falpha": 0.0
+    },
+    "foliageColor": {
+      "value": -10092340,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -16724788,
+      "falpha": 0.0
+    },
+    "waterFogColor": {
+      "value": -10027162,
+      "falpha": 0.0
+    },
+    "ambientSound": {
+      "value": ""
+    },
+    "additionsSound": {
+      "value": ""
+    },
+    "music": {
+      "value": "entity.villager.hurt"
+    },
+    "moodSound": {
+      "value": "entity.puffer_fish.hurt"
+    },
+    "moodSoundDelay": 100,
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "particlesProbability": 0.5,
+    "biomeCategory": "NONE",
+    "parent": {
+      "value": "No parent"
+    },
+    "rainingPossibility": 0.5,
+    "temperature": 0.5,
+    "baseHeight": 0.1,
+    "heightVariation": 0.2,
+    "biomeType": "WARM",
+    "spawnBiome": false,
+    "biomeWeight": 20,
+    "biomeDictionaryTypes": [],
+    "grassPerChunk": 7,
+    "seagrassPerChunk": 1,
+    "flowersPerChunk": 6,
+    "mushroomsPerChunk": 3,
+    "bigMushroomsChunk": 1,
+    "sandPatchesPerChunk": 0,
+    "gravelPatchesPerChunk": 0,
+    "reedsPerChunk": 0,
+    "cactiPerChunk": 0,
+    "treesPerChunk": 2,
+    "vanillaTreeType": "Default",
+    "treeType": 1,
+    "minHeight": 7,
+    "treeStem": {
+      "value": "Blocks.DIAMOND_BLOCK"
+    },
+    "treeBranch": {
+      "value": "Blocks.DIAMOND_BLOCK"
+    },
+    "treeVines": {
+      "value": "Blocks.COMMAND_BLOCK"
+    },
+    "treeFruits": {
+      "value": "Blocks.NETHERITE_BLOCK"
+    },
+    "spawnStronghold": true,
+    "spawnMineshaft": true,
+    "spawnPillagerOutpost": true,
+    "villageType": "plains",
+    "spawnWoodlandMansion": true,
+    "spawnJungleTemple": true,
+    "spawnDesertPyramid": true,
+    "spawnIgloo": true,
+    "spawnOceanMonument": true,
+    "spawnShipwreck": true,
+    "oceanRuinType": "WARM",
+    "defaultFeatures": [
+      "TaigaRocks"
+    ],
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "CUSTOM:Herobrine"
+        },
+        "minGroup": 4,
+        "maxGroup": 4,
+        "weight": 20,
+        "spawnType": "monster"
+      }
+    ]
+  }
+}

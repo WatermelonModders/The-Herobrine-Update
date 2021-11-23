@@ -1,0 +1,177 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 343,
+    "height": 208,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": true,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "The Beginning",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "The Beginning",
+          "x": 51,
+          "y": 26
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Next Page",
+          "onClick": {
+            "name": "NextPage2"
+          },
+          "width": 72,
+          "height": 20,
+          "name": "Next Page",
+          "x": 303,
+          "y": 197
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "He was defeated, almost. Herobrine retreated with what little",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "He was defeated, almost. Herobrine retreated with what little",
+          "x": 51,
+          "y": 44
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "he had. Herobrine created a dimension, and retreated to it.",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "he had. Herobrine created a dimension, and retreated to it.",
+          "x": 51,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "The dimension was called \"The Nether\". Notch and his followers",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "The dimension was called \"The Nether\". Notch and his followers",
+          "x": 51,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "tried over and over again, making structures, trying to make a",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "tried over and over again, making structures, trying to make a",
+          "x": 51,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "that could get Notch into the Nether. At one point, Notch found",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "that could get Notch into the Nether. At one point, Notch found",
+          "x": 51,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "A grave. It was for a person whom Notch knew to be one of",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "A grave. It was for a person whom Notch knew to be one of",
+          "x": 51,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Herobrine's generals. Notch dug up the tombstone, and found a",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Herobrine's generals. Notch dug up the tombstone, and found a",
+          "x": 51,
+          "y": 152
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "diagram on how to make the Nether Portal. Notch made the",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "diagram on how to make the Nether Portal. Notch made the",
+          "x": 51,
+          "y": 170
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "portal.",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "portal.",
+          "x": 159,
+          "y": 188
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Previous Page",
+          "width": 93,
+          "height": 20,
+          "name": "Previous Page",
+          "x": 51,
+          "y": 197
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}
