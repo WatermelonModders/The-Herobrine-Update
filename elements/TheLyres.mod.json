@@ -9,7 +9,7 @@
     ],
     "worldGenType": "End like gen",
     "mainFillerBlock": {
-      "value": "Blocks.PORTAL"
+      "value": "Blocks.COBBLESTONE"
     },
     "fluidBlock": {
       "value": "Blocks.FLOWING_LAVA"

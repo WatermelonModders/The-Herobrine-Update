@@ -54,10 +54,7 @@
       "sea_level": 0,
       "disable_mob_generation": false,
       "default_block": {
-        "Name": "minecraft:nether_portal",
-        "Properties": {
-          "axis": "x"
-        }
+        "Name": "minecraft:cobblestone"
       },
       "default_fluid": {
         "Name": "minecraft:lava",

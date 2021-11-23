@@ -87,10 +87,10 @@ public class TheLyresDimension extends TheHistoryUpdateModElements.ModElement {
 			try {
 				ObfuscationReflectionHelper.setPrivateValue(WorldCarver.class, WorldCarver.CAVE, new ImmutableSet.Builder<Block>()
 						.addAll((Set<Block>) ObfuscationReflectionHelper.getPrivateValue(WorldCarver.class, WorldCarver.CAVE, "field_222718_j"))
-						.add(Blocks.NETHER_PORTAL).build(), "field_222718_j");
+						.add(Blocks.COBBLESTONE).build(), "field_222718_j");
 				ObfuscationReflectionHelper.setPrivateValue(WorldCarver.class, WorldCarver.CANYON, new ImmutableSet.Builder<Block>()
 						.addAll((Set<Block>) ObfuscationReflectionHelper.getPrivateValue(WorldCarver.class, WorldCarver.CANYON, "field_222718_j"))
-						.add(Blocks.NETHER_PORTAL).build(), "field_222718_j");
+						.add(Blocks.COBBLESTONE).build(), "field_222718_j");
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
