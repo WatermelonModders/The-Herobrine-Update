@@ -8,9 +8,9 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.item.Items;
 import net.minecraft.item.ItemStack;
-import net.minecraft.block.Blocks;
 
 import net.mcreator.thehistoryupdate.item.EmeraldSwordItem;
+import net.mcreator.thehistoryupdate.block.BluestoneBlock;
 import net.mcreator.thehistoryupdate.TheHistoryUpdateMod;
 
 import java.util.concurrent.atomic.AtomicReference;
@@ -55,7 +55,7 @@ public class AdvancedTableProcedureProcedure {
 				}
 				return _retval.get();
 			}
-		}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (0))).getItem() == Blocks.AIR.asItem() && (new Object() {
+		}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (0))).getItem() == BluestoneBlock.block.asItem() && (new Object() {
 			public ItemStack getItemStack(BlockPos pos, int sltid) {
 				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 				TileEntity _ent = world.getTileEntity(pos);
@@ -77,7 +77,7 @@ public class AdvancedTableProcedureProcedure {
 				}
 				return _retval.get();
 			}
-		}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (3))).getItem() == Blocks.AIR.asItem() && (new Object() {
+		}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (3))).getItem() == BluestoneBlock.block.asItem() && (new Object() {
 			public ItemStack getItemStack(BlockPos pos, int sltid) {
 				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 				TileEntity _ent = world.getTileEntity(pos);
@@ -88,7 +88,7 @@ public class AdvancedTableProcedureProcedure {
 				}
 				return _retval.get();
 			}
-		}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (4))).getItem() == Blocks.AIR.asItem() && (new Object() {
+		}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (4))).getItem() == BluestoneBlock.block.asItem() && (new Object() {
 			public ItemStack getItemStack(BlockPos pos, int sltid) {
 				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 				TileEntity _ent = world.getTileEntity(pos);
@@ -132,7 +132,7 @@ public class AdvancedTableProcedureProcedure {
 				}
 				return _retval.get();
 			}
-		}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (8))).getItem() == Blocks.AIR.asItem() && (new Object() {
+		}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (8))).getItem() == BluestoneBlock.block.asItem() && (new Object() {
 			public ItemStack getItemStack(BlockPos pos, int sltid) {
 				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 				TileEntity _ent = world.getTileEntity(pos);
@@ -154,7 +154,7 @@ public class AdvancedTableProcedureProcedure {
 				}
 				return _retval.get();
 			}
-		}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (10))).getItem() == Blocks.AIR.asItem() && (new Object() {
+		}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (10))).getItem() == BluestoneBlock.block.asItem() && (new Object() {
 			public ItemStack getItemStack(BlockPos pos, int sltid) {
 				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 				TileEntity _ent = world.getTileEntity(pos);
@@ -165,7 +165,7 @@ public class AdvancedTableProcedureProcedure {
 				}
 				return _retval.get();
 			}
-		}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (11))).getItem() == Blocks.AIR.asItem() && (new Object() {
+		}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (11))).getItem() == BluestoneBlock.block.asItem() && (new Object() {
 			public ItemStack getItemStack(BlockPos pos, int sltid) {
 				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 				TileEntity _ent = world.getTileEntity(pos);
@@ -176,7 +176,7 @@ public class AdvancedTableProcedureProcedure {
 				}
 				return _retval.get();
 			}
-		}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (12))).getItem() == Blocks.AIR.asItem() && (new Object() {
+		}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (12))).getItem() == BluestoneBlock.block.asItem() && (new Object() {
 			public ItemStack getItemStack(BlockPos pos, int sltid) {
 				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 				TileEntity _ent = world.getTileEntity(pos);
@@ -198,7 +198,7 @@ public class AdvancedTableProcedureProcedure {
 				}
 				return _retval.get();
 			}
-		}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (14))).getItem() == Blocks.AIR.asItem() && (new Object() {
+		}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (14))).getItem() == BluestoneBlock.block.asItem() && (new Object() {
 			public ItemStack getItemStack(BlockPos pos, int sltid) {
 				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 				TileEntity _ent = world.getTileEntity(pos);
@@ -209,7 +209,7 @@ public class AdvancedTableProcedureProcedure {
 				}
 				return _retval.get();
 			}
-		}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (2))).getItem() == Blocks.AIR.asItem() && (new Object() {
+		}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (2))).getItem() == BluestoneBlock.block.asItem() && (new Object() {
 			public ItemStack getItemStack(BlockPos pos, int sltid) {
 				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 				TileEntity _ent = world.getTileEntity(pos);
@@ -220,7 +220,7 @@ public class AdvancedTableProcedureProcedure {
 				}
 				return _retval.get();
 			}
-		}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (15))).getItem() == Blocks.AIR.asItem() && (new Object() {
+		}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (15))).getItem() == BluestoneBlock.block.asItem() && (new Object() {
 			public int getAmount(IWorld world, BlockPos pos, int sltid) {
 				AtomicInteger _retval = new AtomicInteger(0);
 				TileEntity _ent = world.getTileEntity(pos);
