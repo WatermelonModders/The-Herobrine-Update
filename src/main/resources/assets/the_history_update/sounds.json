@@ -1,0 +1,38 @@
+{
+  "outsidermusic": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "the_history_update:outside_the_box_-_patrick_patrikios",
+        "stream": true
+      }
+    ]
+  },
+  "justdance": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "the_history_update:just_dance_-_patrick_patrikios",
+        "stream": true
+      }
+    ]
+  },
+  "yunglogos": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "the_history_update:cru_-_yung_logos",
+        "stream": true
+      }
+    ]
+  },
+  "thesavagenarwhal": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "the_history_update:cru_-_yung_logos",
+        "stream": true
+      }
+    ]
+  }
+}

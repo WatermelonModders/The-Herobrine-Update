@@ -1,0 +1,95 @@
+{
+  "_fv": 24,
+  "_type": "biome",
+  "definition": {
+    "name": "The Lyre Biome",
+    "groundBlock": {
+      "value": "CUSTOM:Bluestone"
+    },
+    "undergroundBlock": {
+      "value": "CUSTOM:Bluestone"
+    },
+    "airColor": {
+      "value": -65485,
+      "falpha": 0.0
+    },
+    "ambientSound": {
+      "value": ""
+    },
+    "additionsSound": {
+      "value": ""
+    },
+    "music": {
+      "value": "ambient.cave"
+    },
+    "moodSound": {
+      "value": ""
+    },
+    "moodSoundDelay": 6000,
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "particlesProbability": 0.5,
+    "biomeCategory": "NONE",
+    "parent": {
+      "value": "No parent"
+    },
+    "rainingPossibility": 0.0,
+    "temperature": 2.0,
+    "baseHeight": 0.1,
+    "heightVariation": 0.2,
+    "biomeType": "WARM",
+    "spawnBiome": false,
+    "biomeWeight": 23,
+    "biomeDictionaryTypes": [],
+    "grassPerChunk": 3,
+    "seagrassPerChunk": 0,
+    "flowersPerChunk": 0,
+    "mushroomsPerChunk": 3,
+    "bigMushroomsChunk": 0,
+    "sandPatchesPerChunk": 0,
+    "gravelPatchesPerChunk": 1,
+    "reedsPerChunk": 0,
+    "cactiPerChunk": 0,
+    "treesPerChunk": 0,
+    "vanillaTreeType": "Default",
+    "treeType": 1,
+    "minHeight": 5,
+    "treeStem": {
+      "value": "CUSTOM:Bluestone"
+    },
+    "treeBranch": {
+      "value": "CUSTOM:Bluestone"
+    },
+    "treeVines": {
+      "value": "CUSTOM:Bluestone"
+    },
+    "treeFruits": {
+      "value": "CUSTOM:Bluestone"
+    },
+    "spawnStronghold": false,
+    "spawnMineshaft": false,
+    "spawnPillagerOutpost": false,
+    "villageType": "none",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "oceanRuinType": "NONE",
+    "defaultFeatures": [],
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "CUSTOM:Ghoul"
+        },
+        "minGroup": 4,
+        "maxGroup": 4,
+        "weight": 10,
+        "spawnType": "monster"
+      }
+    ]
+  }
+}

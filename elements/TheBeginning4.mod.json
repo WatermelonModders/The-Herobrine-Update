@@ -1,0 +1,117 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 343,
+    "height": 208,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": true,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "The Beginning",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "The Beginning",
+          "x": 51,
+          "y": 26
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Previous Page",
+          "onClick": {
+            "name": "PreviousPage2"
+          },
+          "width": 93,
+          "height": 20,
+          "name": "Previous Page",
+          "x": 51,
+          "y": 197
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Even though Herobrine won, he barely had any forces left,",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Even though Herobrine won, he barely had any forces left,",
+          "x": 51,
+          "y": 44
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "So he made another dimension, called \"The Lyre\". To this day,",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "So he made another dimension, called \"The Lyre\". To this day,",
+          "x": 51,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "no one knows how to make a portal to go into the lyre. There is",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "no one knows how to make a portal to go into the lyre. There is",
+          "x": 51,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "book, that has the structure to get in, but not even Notch",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "book, that has the structure to get in, but not even Notch",
+          "x": 51,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "can find the book.",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "can find the book.",
+          "x": 51,
+          "y": 116
+        }
+      }
+    ],
+    "onOpen": {
+      "name": "PreviousPage3"
+    },
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

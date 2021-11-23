@@ -1,0 +1,235 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 343,
+    "height": 208,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": true,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "The Beginning",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "The Beginning",
+          "x": 51,
+          "y": 26
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Next Page",
+          "onClick": {
+            "name": "NextPage"
+          },
+          "width": 72,
+          "height": 20,
+          "name": "Next Page",
+          "x": 303,
+          "y": 197
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Some twelve thousand years ago,",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Some twelve thousand years ago,",
+          "x": 51,
+          "y": 44
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "this world, named Minecraft,",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "this world, named Minecraft,",
+          "x": 222,
+          "y": 44
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "came to be. Two people, or",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "came to be. Two people, or",
+          "x": 51,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "NPCs, lead the world. One was",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "NPCs, lead the world. One was",
+          "x": 195,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "called Notch, and another was",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "called Notch, and another was",
+          "x": 51,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Herobrine. They ruled in peace.",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Herobrine. They ruled in peace.",
+          "x": 213,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "They created villages, people, etc. Now, at one point,",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "They created villages, people, etc. Now, at one point,",
+          "x": 51,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Herobrine and Notch had a dispute, one that has been long",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Herobrine and Notch had a dispute, one that has been long",
+          "x": 51,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "forgotten, and became enemies. Now, at the time, there were ten",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "forgotten, and became enemies. Now, at the time, there were ten",
+          "x": 51,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "villages, called \"The Isles\". Each village had a chance to side",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "villages, called \"The Isles\". Each village had a chance to side",
+          "x": 51,
+          "y": 152
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "with either Herobrine or Notch. 7 villages chose to side",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "with either Herobrine or Notch. 7 villages chose to side",
+          "x": 51,
+          "y": 170
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "with Notch, and 3 with Herobrine. War broke out",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "with Notch, and 3 with Herobrine. War broke out",
+          "x": 51,
+          "y": 188
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "And with Herobrine being outnumbered,",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "And with Herobrine being outnumbered,",
+          "x": 51,
+          "y": 206
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Exit",
+          "onClick": {
+            "name": "Exit"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "Exit",
+          "x": 333,
+          "y": 20
+        }
+      }
+    ],
+    "onOpen": {
+      "name": "Exit"
+    },
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 343,
+    "height": 208,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": true,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "The Beginning",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "The Beginning",
+          "x": 51,
+          "y": 26
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Next Page",
+          "onClick": {
+            "name": "NextPage3"
+          },
+          "width": 72,
+          "height": 20,
+          "name": "Next Page",
+          "x": 303,
+          "y": 197
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Previous Page",
+          "onClick": {
+            "name": "PreviousPage2"
+          },
+          "width": 93,
+          "height": 20,
+          "name": "Previous Page",
+          "x": 51,
+          "y": 197
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Notch lead his followers into the Nether. Notch fought with",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Notch lead his followers into the Nether. Notch fought with",
+          "x": 51,
+          "y": 44
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Herobrine, Notch won, but it took longer. Herobrine had been",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Herobrine, Notch won, but it took longer. Herobrine had been",
+          "x": 51,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "training his followers, so it was harder. Herobrine retreated",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "training his followers, so it was harder. Herobrine retreated",
+          "x": 51,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "again, this time created a dimension called 'The End\".",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "again, this time created a dimension called 'The End\".",
+          "x": 51,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "The same thing happened again, except Notch found the portal",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "The same thing happened again, except Notch found the portal",
+          "x": 51,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "that Herobrine had made, and went through that instead of",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "that Herobrine had made, and went through that instead of",
+          "x": 51,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "building his own. Notch led Herobrine into war again. This",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "building his own. Notch led Herobrine into war again. This",
+          "x": 51,
+          "y": 152
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "time, Herobrine won. Like last time, Herobrine had been",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "time, Herobrine won. Like last time, Herobrine had been",
+          "x": 51,
+          "y": 170
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "training.",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "training.",
+          "x": 159,
+          "y": 188
+        }
+      }
+    ],
+    "onOpen": {
+      "name": "NextPage3"
+    },
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

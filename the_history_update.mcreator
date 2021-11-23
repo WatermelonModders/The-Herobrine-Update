@@ -1,0 +1,700 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "TheBeginning",
+      "type": "gui",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "the_beginning"
+    },
+    {
+      "name": "TheBeginning2",
+      "type": "gui",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "the_beginning_2"
+    },
+    {
+      "name": "NextPage",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "next_page",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Previouspage1",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "previouspage_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TheBeginningBookRightClickedInAir",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "the_beginning_book_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TheBeginningBook",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "the_beginning_book"
+    },
+    {
+      "name": "NextPage2",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "next_page_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TheBeginning3",
+      "type": "gui",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "the_beginning_3"
+    },
+    {
+      "name": "PreviousPage2",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "previous_page_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NextPage3",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "next_page_3",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TheBeginning4",
+      "type": "gui",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "the_beginning_4"
+    },
+    {
+      "name": "PreviousPage3",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "previous_page_3",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Exit",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "exit",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Bluestone",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bluestone"
+    },
+    {
+      "name": "LyeBiome",
+      "type": "biome",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lye_biome"
+    },
+    {
+      "name": "LyreCrafting",
+      "type": "gui",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lyre_crafting"
+    },
+    {
+      "name": "Herobrine",
+      "type": "livingentity",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "herobrine"
+    },
+    {
+      "name": "TheLyre",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "the_lyre"
+    },
+    {
+      "name": "TheLyreRightClickedInAir",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "the_lyre_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ghoul",
+      "type": "livingentity",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ghoul"
+    },
+    {
+      "name": "DupeGhoul",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dupe_ghoul",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SpawnGhoul",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spawn_ghoul",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TheLyreBiome",
+      "type": "biome",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "the_lyre_biome"
+    },
+    {
+      "name": "TheLyres",
+      "type": "dimension",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "the_lyres",
+      "metadata": {
+        "ep": true
+      }
+    },
+    {
+      "name": "Lyre",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lyre",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Tp",
+      "type": "command",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tp"
+    },
+    {
+      "name": "Normal",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "normal",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Music",
+      "type": "musicdisc",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "music"
+    },
+    {
+      "name": "Tribute",
+      "type": "loottable",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tribute"
+    },
+    {
+      "name": "A",
+      "type": "achievement",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "a"
+    },
+    {
+      "name": "TheCookingTable",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "the_cooking_table"
+    },
+    {
+      "name": "CookingTable",
+      "type": "gui",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cooking_table"
+    },
+    {
+      "name": "Bake",
+      "type": "gui",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bake"
+    },
+    {
+      "name": "OpenBake",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "open_bake",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Looter",
+      "type": "biome",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "looter"
+    },
+    {
+      "name": "TheLooter",
+      "type": "dimension",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "the_looter",
+      "metadata": {
+        "ep": true
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "outsidermusic",
+      "files": [
+        "outside_the_box_-_patrick_patrikios"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "justdance",
+      "files": [
+        "just_dance_-_patrick_patrikios"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "yunglogos",
+      "files": [
+        "cru_-_yung_logos"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "thesavagenarwhal",
+      "files": [
+        "cru_-_yung_logos"
+      ],
+      "category": "music",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "biome.the_history_update.looter": "Looter",
+      "advancements.a.title": "A Tribute to the SavageNarwhal",
+      "block.the_history_update.bluestone": "Bluestone",
+      "item.the_history_update.the_lyre": "Lyre Frame Diagram",
+      "subtitles.outsidermusic": "",
+      "biome.the_history_update.the_lyre_biome": "The Lyre Biome",
+      "item.the_history_update.the_looter": "The Looter Portal Igniter",
+      "biome.the_history_update.lye_biome": "Lye Biome",
+      "item.the_history_update.ghoul_spawn_egg": "Ghoul Spawn Egg",
+      "item.the_history_update.the_lyres": "The Lyres Portal Igniter",
+      "subtitles.thesavagenarwhal": "",
+      "item.the_history_update.herobrine_spawn_egg": "Herobrine Spawn Egg",
+      "advancements.a.descr": "Get the Tribute to TheSavageNarwhal Music Disc",
+      "subtitles.yunglogos": "",
+      "block.the_history_update.the_cooking_table": "The Cooking Table",
+      "item.the_history_update.the_beginning_book": "The Beginning",
+      "subtitles.justdance": "",
+      "item.the_history_update.music.desc": "A song that\u0027s in one of his videos.",
+      "entity.the_history_update.herobrine": "Herobrine",
+      "item.the_history_update.music": "A Tribute to the SavageNarwhal",
+      "entity.the_history_update.ghoul": "Ghoul"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "the_history_update",
+    "modName": "The Herobrine Update",
+    "version": "1.7.2",
+    "description": "For once, we add Herobrine instead of deleting him.",
+    "author": "Herobrine",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "book_portfolio",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.thehistoryupdate",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100347317
+}

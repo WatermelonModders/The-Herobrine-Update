@@ -1,0 +1,17 @@
+{
+  "_fv": 24,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "record_blocks",
+    "name": "A Tribute to the SavageNarwhal",
+    "description": "A song that's in one of his videos.",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "CUSTOM:thesavagenarwhal"
+    },
+    "specialInfo": [],
+    "hasGlow": true
+  }
+}

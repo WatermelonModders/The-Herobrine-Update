@@ -1,0 +1,104 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "text": "Chop",
+          "width": 46,
+          "height": 20,
+          "name": "Chop",
+          "x": 141,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "The Cooking Table",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "The Cooking Table",
+          "x": 168,
+          "y": 44
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Boil",
+          "width": 46,
+          "height": 20,
+          "name": "Boil",
+          "x": 240,
+          "y": 62
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Craft",
+          "width": 51,
+          "height": 20,
+          "name": "Craft",
+          "x": 141,
+          "y": 98
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Destroy",
+          "width": 61,
+          "height": 20,
+          "name": "Destroy",
+          "x": 231,
+          "y": 98
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Cook",
+          "width": 46,
+          "height": 20,
+          "name": "Cook",
+          "x": 141,
+          "y": 134
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Bake",
+          "onClick": {
+            "name": "OpenBake"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "Bake",
+          "x": 240,
+          "y": 134
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

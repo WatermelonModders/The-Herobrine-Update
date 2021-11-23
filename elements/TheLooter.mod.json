@@ -1,0 +1,42 @@
+{
+  "_fv": 24,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:Looter"
+      }
+    ],
+    "worldGenType": "Nether like gen",
+    "mainFillerBlock": {
+      "value": "Blocks.OBSIDIAN"
+    },
+    "fluidBlock": {
+      "value": "Blocks.TNT"
+    },
+    "canRespawnHere": false,
+    "hasFog": false,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": false,
+    "imitateOverworldBehaviour": false,
+    "portalFrame": {
+      "value": "Blocks.DIAMOND_BLOCK"
+    },
+    "portalParticles": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "portalLuminance": 0,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "igniterName": "The Looter Portal Igniter",
+    "igniterTab": {
+      "value": "TOOLS"
+    },
+    "texture": "diamond",
+    "portalTexture": "lava_placeholder",
+    "enablePortal": true
+  }
+}
