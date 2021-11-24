@@ -531,46 +531,33 @@
       "registry_name": "a"
     },
     {
-      "name": "TheCookingTable",
-      "type": "block",
-      "sortid": 23,
+      "name": "TheLyreLighterRecipe",
+      "type": "recipe",
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "the_cooking_table"
+      "registry_name": "the_lyre_lighter_recipe"
     },
     {
-      "name": "CookingTable",
-      "type": "gui",
-      "sortid": 24,
+      "name": "Cookingtablerecipe",
+      "type": "recipe",
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "cooking_table"
+      "registry_name": "cookingtablerecipe"
     },
     {
-      "name": "Bake",
-      "type": "gui",
-      "sortid": 25,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "bake"
-    },
-    {
-      "name": "OpenBake",
+      "name": "BakingProcedure",
       "type": "procedure",
-      "sortid": 25,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "open_bake",
+      "registry_name": "baking_procedure",
       "metadata": {
         "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
           {
             "name": "x",
             "type": "number"
@@ -591,25 +578,742 @@
       }
     },
     {
-      "name": "Looter",
-      "type": "biome",
-      "sortid": 26,
+      "name": "EmeraldSword",
+      "type": "tool",
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "looter"
+      "registry_name": "emerald_sword"
     },
     {
-      "name": "TheLooter",
-      "type": "dimension",
-      "sortid": 26,
+      "name": "EmeraldAxe",
+      "type": "tool",
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "the_looter",
+      "registry_name": "emerald_axe"
+    },
+    {
+      "name": "EmeraldShovel",
+      "type": "tool",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_shovel"
+    },
+    {
+      "name": "EmeraldHoe",
+      "type": "tool",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_hoe"
+    },
+    {
+      "name": "EmeraldPickaxe",
+      "type": "tool",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_pickaxe"
+    },
+    {
+      "name": "DeepslateDirt",
+      "type": "block",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "deepslate_dirt"
+    },
+    {
+      "name": "LimestoneGem",
+      "type": "item",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "limestone_gem"
+    },
+    {
+      "name": "LimeStoneOre",
+      "type": "block",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lime_stone_ore"
+    },
+    {
+      "name": "LimestonePickaxe",
+      "type": "tool",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "limestone_pickaxe"
+    },
+    {
+      "name": "LimestoneAxe",
+      "type": "tool",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "limestone_axe"
+    },
+    {
+      "name": "LimestoneSword",
+      "type": "tool",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "limestone_sword"
+    },
+    {
+      "name": "LimestoneShovel",
+      "type": "tool",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "limestone_shovel"
+    },
+    {
+      "name": "LimestoneHoe",
+      "type": "tool",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "limestone_hoe"
+    },
+    {
+      "name": "TheUnderworldBiome",
+      "type": "biome",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "the_underworld_biome"
+    },
+    {
+      "name": "TheUnderworld",
+      "type": "dimension",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "the_underworld",
       "metadata": {
         "ep": true
       }
+    },
+    {
+      "name": "WeneedtogoEVENdeeper",
+      "type": "achievement",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "weneedtogo_eve_ndeeper"
+    },
+    {
+      "name": "SphereofWonder",
+      "type": "painting",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sphereof_wonder"
+    },
+    {
+      "name": "HardenedAmethyst",
+      "type": "item",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hardened_amethyst"
+    },
+    {
+      "name": "HardenedAmethystOre",
+      "type": "block",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hardened_amethyst_ore"
+    },
+    {
+      "name": "HardenedAmethystBlock",
+      "type": "block",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hardened_amethyst_block"
+    },
+    {
+      "name": "HardenedAmethystOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hardened_amethyst_ore_block_recipe"
+    },
+    {
+      "name": "HardenedAmethystBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hardened_amethyst_block_ore_recipe"
+    },
+    {
+      "name": "HardenedAmethystOreSmelting",
+      "type": "recipe",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hardened_amethyst_ore_smelting"
+    },
+    {
+      "name": "HardenedAmethystPickaxe",
+      "type": "tool",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hardened_amethyst_pickaxe"
+    },
+    {
+      "name": "HardenedAmethystAxe",
+      "type": "tool",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hardened_amethyst_axe"
+    },
+    {
+      "name": "HardenedAmethystSword",
+      "type": "tool",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hardened_amethyst_sword"
+    },
+    {
+      "name": "HardenedAmethystShovel",
+      "type": "tool",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hardened_amethyst_shovel"
+    },
+    {
+      "name": "HardenedAmethystHoe",
+      "type": "tool",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hardened_amethyst_hoe"
+    },
+    {
+      "name": "Tokenofherobrine",
+      "type": "item",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tokenofherobrine"
+    },
+    {
+      "name": "Underworldwriter",
+      "type": "recipe",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "underworldwriter"
+    },
+    {
+      "name": "ESwordRecipe",
+      "type": "recipe",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "e_sword_recipe"
+    },
+    {
+      "name": "EPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "e_pickaxe_recipe"
+    },
+    {
+      "name": "EAxeRecipe",
+      "type": "recipe",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "e_axe_recipe"
+    },
+    {
+      "name": "EShovelRecipe",
+      "type": "recipe",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "e_shovel_recipe"
+    },
+    {
+      "name": "EHoeRecipe",
+      "type": "recipe",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "e_hoe_recipe"
+    },
+    {
+      "name": "HASwordRecipe",
+      "type": "recipe",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ha_sword_recipe"
+    },
+    {
+      "name": "HAShovelRecipe",
+      "type": "recipe",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ha_shovel_recipe"
+    },
+    {
+      "name": "HAPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ha_pickaxe_recipe"
+    },
+    {
+      "name": "HAAxeRecipe",
+      "type": "recipe",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ha_axe_recipe"
+    },
+    {
+      "name": "HAHoeRecipe",
+      "type": "recipe",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ha_hoe_recipe"
+    },
+    {
+      "name": "LimestoneArmor",
+      "type": "armor",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "limestone_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "LimestoneArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "limestone_armor_helmet_recipe"
+    },
+    {
+      "name": "LimestoneArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "limestone_armor_body_recipe"
+    },
+    {
+      "name": "LimestoneArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "limestone_armor_leggings_recipe"
+    },
+    {
+      "name": "LimestoneArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "limestone_armor_boots_recipe"
+    },
+    {
+      "name": "EmeraldArmorArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_armor_armor_helmet_recipe"
+    },
+    {
+      "name": "EmeraldArmorArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_armor_armor_body_recipe"
+    },
+    {
+      "name": "EmeraldArmorArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_armor_armor_leggings_recipe"
+    },
+    {
+      "name": "EmeraldArmorArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_armor_armor_boots_recipe"
+    },
+    {
+      "name": "EmeraldArmorArmor",
+      "type": "armor",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_armor_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "HardenedArmor",
+      "type": "armor",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hardened_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "HardenedArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hardened_armor_helmet_recipe"
+    },
+    {
+      "name": "HardenedArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hardened_armor_body_recipe"
+    },
+    {
+      "name": "HardenedArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hardened_armor_leggings_recipe"
+    },
+    {
+      "name": "HardenedArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hardened_armor_boots_recipe"
+    },
+    {
+      "name": "DeepSlateDirtRecipe",
+      "type": "recipe",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "deep_slate_dirt_recipe"
+    },
+    {
+      "name": "ObsidianIngot",
+      "type": "item",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obsidian_ingot"
+    },
+    {
+      "name": "ObsidianOre",
+      "type": "block",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obsidian_ore"
+    },
+    {
+      "name": "ObsidianBlock",
+      "type": "block",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obsidian_block"
+    },
+    {
+      "name": "ObsidianOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obsidian_ore_block_recipe"
+    },
+    {
+      "name": "ObsidianBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obsidian_block_ore_recipe"
+    },
+    {
+      "name": "ObsidianPickaxe",
+      "type": "tool",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obsidian_pickaxe"
+    },
+    {
+      "name": "ObsidianAxe",
+      "type": "tool",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obsidian_axe"
+    },
+    {
+      "name": "ObsidianSword",
+      "type": "tool",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obsidian_sword"
+    },
+    {
+      "name": "ObsidianShovel",
+      "type": "tool",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obsidian_shovel"
+    },
+    {
+      "name": "ObsidianHoe",
+      "type": "tool",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obsidian_hoe"
+    },
+    {
+      "name": "ObsidianPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obsidian_pickaxe_recipe"
+    },
+    {
+      "name": "ObsidianAxeRecipe",
+      "type": "recipe",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obsidian_axe_recipe"
+    },
+    {
+      "name": "ObsidianSwordRecipe",
+      "type": "recipe",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obsidian_sword_recipe"
+    },
+    {
+      "name": "ObsidianShovelRecipe",
+      "type": "recipe",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obsidian_shovel_recipe"
+    },
+    {
+      "name": "ObsidianHoeRecipe",
+      "type": "recipe",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obsidian_hoe_recipe"
+    },
+    {
+      "name": "ObsidianArmor",
+      "type": "armor",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obsidian_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "ObsidianArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obsidian_armor_helmet_recipe"
+    },
+    {
+      "name": "ObsidianArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obsidian_armor_body_recipe"
+    },
+    {
+      "name": "ObsidianArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obsidian_armor_leggings_recipe"
+    },
+    {
+      "name": "ObsidianArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obsidian_armor_boots_recipe"
+    },
+    {
+      "name": "ObsidianDust",
+      "type": "item",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obsidian_dust"
+    },
+    {
+      "name": "ObsidianDustRecipe",
+      "type": "recipe",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obsidian_dust_recipe"
+    },
+    {
+      "name": "ObsidianIngotRecipe",
+      "type": "recipe",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "obsidian_ingot_recipe"
     }
   ],
   "variable_elements": [],
@@ -649,27 +1353,75 @@
   ],
   "language_map": {
     "en_us": {
-      "biome.the_history_update.looter": "Looter",
-      "advancements.a.title": "A Tribute to the SavageNarwhal",
+      "item.the_history_update.emerald_hoe": "Emerald Hoe",
       "block.the_history_update.bluestone": "Bluestone",
-      "item.the_history_update.the_lyre": "Lyre Frame Diagram",
-      "subtitles.outsidermusic": "",
-      "biome.the_history_update.the_lyre_biome": "The Lyre Biome",
-      "item.the_history_update.the_looter": "The Looter Portal Igniter",
+      "item.the_history_update.obsidian_axe": "Obsidian Axe",
+      "item.the_history_update.obsidian_sword": "Obsidian Sword",
       "biome.the_history_update.lye_biome": "Lye Biome",
-      "item.the_history_update.ghoul_spawn_egg": "Ghoul Spawn Egg",
-      "item.the_history_update.the_lyres": "The Lyres Portal Igniter",
-      "subtitles.thesavagenarwhal": "",
+      "item.the_history_update.limestone_armor_chestplate": "Limestone Chestplate",
+      "item.the_history_update.limestone_sword": "Limestone Sword",
       "item.the_history_update.herobrine_spawn_egg": "Herobrine Spawn Egg",
-      "advancements.a.descr": "Get the Tribute to TheSavageNarwhal Music Disc",
       "subtitles.yunglogos": "",
-      "block.the_history_update.the_cooking_table": "The Cooking Table",
-      "item.the_history_update.the_beginning_book": "The Beginning",
       "subtitles.justdance": "",
-      "item.the_history_update.music.desc": "A song that\u0027s in one of his videos.",
+      "item.the_history_update.the_beginning_book": "The Beginning",
+      "block.the_history_update.obsidian_ore": "Obsidian Ore",
       "entity.the_history_update.herobrine": "Herobrine",
       "item.the_history_update.music": "A Tribute to the SavageNarwhal",
-      "entity.the_history_update.ghoul": "Ghoul"
+      "item.the_history_update.limestone_armor_leggings": "Limestone Leggings",
+      "item.the_history_update.emerald_armor_armor_leggings": "EmeraldArmor Leggings",
+      "item.the_history_update.emerald_sword": "Emerald Sword",
+      "item.the_history_update.the_underworld": "Gateway to the Underworld",
+      "item.the_history_update.limestone_axe": "Limestone Axe",
+      "block.the_history_update.hardened_amethyst_block": "Block of HardenedAmethyst",
+      "item.the_history_update.obsidian_ingot": "Obsidian",
+      "subtitles.outsidermusic": "",
+      "item.the_history_update.limestone_shovel": "Limestone Shovel",
+      "item.the_history_update.hardened_armor_boots": "Hardened Boots",
+      "item.the_history_update.ghoul_spawn_egg": "Ghoul Spawn Egg",
+      "item.the_history_update.the_lyres": "The Lyres Portal Igniter",
+      "item.the_history_update.obsidian_armor_helmet": "Obsidian Helmet",
+      "subtitles.thesavagenarwhal": "",
+      "item.the_history_update.hardened_amethyst_axe": "HardenedAmethyst Axe",
+      "advancements.weneedtogo_eve_ndeeper.title": "We Need To Go EVEN Deeper",
+      "advancements.a.title": "A Tribute to the SavageNarwhal",
+      "block.the_history_update.deepslate_dirt": "Underworld Dirt",
+      "item.the_history_update.obsidian_shovel": "Obsidian Shovel",
+      "item.the_history_update.the_lyre": "Lyre Frame Diagram",
+      "item.the_history_update.tokenofherobrine": "Token of herobrine",
+      "block.the_history_update.lime_stone_ore": "Limestone Ore",
+      "item.the_history_update.hardened_armor_helmet": "Hardened Helmet",
+      "item.the_history_update.hardened_amethyst": "HardenedAmethyst",
+      "item.the_history_update.obsidian_armor_leggings": "Obsidian Leggings",
+      "item.the_history_update.limestone_hoe": "Limestone Hoe",
+      "item.the_history_update.emerald_armor_armor_helmet": "EmeraldArmor Helmet",
+      "item.the_history_update.obsidian_hoe": "Obsidian Hoe",
+      "advancements.a.descr": "Get the Tribute to TheSavageNarwhal Music Disc",
+      "item.the_history_update.emerald_pickaxe": "Emerald Pickaxe",
+      "item.the_history_update.hardened_amethyst_pickaxe": "HardenedAmethyst Pickaxe",
+      "item.the_history_update.limestone_pickaxe": "Limestone Pickaxe",
+      "item.the_history_update.music.desc": "A song that\u0027s in one of his videos.",
+      "item.the_history_update.limestone_armor_helmet": "Limestone Helmet",
+      "item.the_history_update.obsidian_pickaxe": "Obsidian Pickaxe",
+      "item.the_history_update.obsidian_armor_boots": "Obsidian Boots",
+      "item.the_history_update.hardened_armor_leggings": "Hardened Leggings",
+      "item.the_history_update.emerald_armor_armor_boots": "EmeraldArmor Boots",
+      "item.the_history_update.obsidian_dust": "Obsidian Dust",
+      "item.the_history_update.limestone_gem": "Limestone Crystal",
+      "item.the_history_update.hardened_amethyst_sword": "HardenedAmethyst Sword",
+      "item.the_history_update.hardened_amethyst_hoe": "HardenedAmethyst Hoe",
+      "item.the_history_update.emerald_shovel": "Emerald Shovel",
+      "biome.the_history_update.the_lyre_biome": "The Lyre Biome",
+      "block.the_history_update.hardened_amethyst_ore": "HardenedAmethyst Ore",
+      "advancements.weneedtogo_eve_ndeeper.descr": "Enter the Underworld.",
+      "item.the_history_update.emerald_axe": "Emerald Axe",
+      "biome.the_history_update.the_underworld_biome": "The Underworld Biome",
+      "item.the_history_update.hardened_armor_chestplate": "Hardened Chestplate",
+      "block.the_history_update.obsidian_block": "Block of Obsidian",
+      "item.the_history_update.obsidian_armor_chestplate": "Obsidian Chestplate",
+      "item.the_history_update.emerald_armor_armor_chestplate": "EmeraldArmor Chestplate",
+      "item.the_history_update.limestone_armor_boots": "Limestone Boots",
+      "entity.the_history_update.ghoul": "Ghoul",
+      "item.the_history_update.hardened_amethyst_shovel": "HardenedAmethyst Shovel"
     }
   },
   "foldersRoot": {
@@ -679,7 +1431,7 @@
   "workspaceSettings": {
     "modid": "the_history_update",
     "modName": "The Herobrine Update",
-    "version": "1.7.2",
+    "version": "Build 26",
     "description": "For once, we add Herobrine instead of deleting him.",
     "author": "Herobrine",
     "websiteURL": "https://mcreator.net",
