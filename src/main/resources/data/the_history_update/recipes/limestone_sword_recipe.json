@@ -1,0 +1,24 @@
+{
+  "group": "the_history_update",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "the_history_update:limestone_gem"
+    },
+    "1": {
+      "item": "the_history_update:limestone_gem"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "the_history_update:limestone_sword",
+    "count": 1
+  }
+}

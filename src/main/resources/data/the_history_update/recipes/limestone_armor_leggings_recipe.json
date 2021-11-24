@@ -1,0 +1,36 @@
+{
+  "group": "the_history_update",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "the_history_update:limestone_gem"
+    },
+    "1": {
+      "item": "the_history_update:limestone_gem"
+    },
+    "2": {
+      "item": "the_history_update:limestone_gem"
+    },
+    "3": {
+      "item": "the_history_update:limestone_gem"
+    },
+    "5": {
+      "item": "the_history_update:limestone_gem"
+    },
+    "6": {
+      "item": "the_history_update:limestone_gem"
+    },
+    "8": {
+      "item": "the_history_update:limestone_gem"
+    }
+  },
+  "result": {
+    "item": "the_history_update:limestone_armor_leggings",
+    "count": 1
+  }
+}

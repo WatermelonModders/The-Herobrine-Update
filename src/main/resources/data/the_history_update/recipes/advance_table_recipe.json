@@ -1,0 +1,42 @@
+{
+  "group": "the_history_update",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "the_history_update:bluestone"
+    },
+    "1": {
+      "item": "minecraft:diamond"
+    },
+    "2": {
+      "item": "the_history_update:bluestone"
+    },
+    "3": {
+      "item": "the_history_update:bluestone"
+    },
+    "4": {
+      "item": "minecraft:crafting_table"
+    },
+    "5": {
+      "item": "the_history_update:bluestone"
+    },
+    "6": {
+      "item": "the_history_update:bluestone"
+    },
+    "7": {
+      "item": "the_history_update:bluestone"
+    },
+    "8": {
+      "item": "the_history_update:bluestone"
+    }
+  },
+  "result": {
+    "item": "the_history_update:advanced_crafting_table",
+    "count": 1
+  }
+}

@@ -761,6 +761,234 @@
           }
         ]
       }
+    },
+    {
+      "name": "EmeraldArmorArmor",
+      "type": "armor",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_armor_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "EmeraldArmorArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_armor_armor_helmet_recipe"
+    },
+    {
+      "name": "EmeraldArmorArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_armor_armor_body_recipe"
+    },
+    {
+      "name": "EmeraldArmorArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_armor_armor_leggings_recipe"
+    },
+    {
+      "name": "EmeraldArmorArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_armor_armor_boots_recipe"
+    },
+    {
+      "name": "AdvanceTableRecipe",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "advance_table_recipe"
+    },
+    {
+      "name": "DeepslateDirt",
+      "type": "block",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "deepslate_dirt"
+    },
+    {
+      "name": "LimestoneGem",
+      "type": "item",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "limestone_gem"
+    },
+    {
+      "name": "LimeStoneOre",
+      "type": "block",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lime_stone_ore"
+    },
+    {
+      "name": "LimestonePickaxe",
+      "type": "tool",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "limestone_pickaxe"
+    },
+    {
+      "name": "LimestoneAxe",
+      "type": "tool",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "limestone_axe"
+    },
+    {
+      "name": "LimestoneSword",
+      "type": "tool",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "limestone_sword"
+    },
+    {
+      "name": "LimestoneShovel",
+      "type": "tool",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "limestone_shovel"
+    },
+    {
+      "name": "LimestoneHoe",
+      "type": "tool",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "limestone_hoe"
+    },
+    {
+      "name": "LimestonePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "limestone_pickaxe_recipe"
+    },
+    {
+      "name": "LimestoneAxeRecipe",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "limestone_axe_recipe"
+    },
+    {
+      "name": "LimestoneSwordRecipe",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "limestone_sword_recipe"
+    },
+    {
+      "name": "LimestoneShovelRecipe",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "limestone_shovel_recipe"
+    },
+    {
+      "name": "LimestoneHoeRecipe",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "limestone_hoe_recipe"
+    },
+    {
+      "name": "LimestoneArmor",
+      "type": "armor",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "limestone_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "LimestoneArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "limestone_armor_helmet_recipe"
+    },
+    {
+      "name": "LimestoneArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "limestone_armor_body_recipe"
+    },
+    {
+      "name": "LimestoneArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "limestone_armor_leggings_recipe"
+    },
+    {
+      "name": "LimestoneArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "limestone_armor_boots_recipe"
     }
   ],
   "variable_elements": [],
@@ -802,9 +1030,15 @@
     "en_us": {
       "item.the_history_update.emerald_hoe": "Emerald Hoe",
       "advancements.a.title": "A Tribute to the SavageNarwhal",
+      "block.the_history_update.deepslate_dirt": "Underworld Dirt",
       "block.the_history_update.bluestone": "Bluestone",
       "item.the_history_update.the_lyre": "Lyre Frame Diagram",
+      "block.the_history_update.lime_stone_ore": "Limestone Ore",
       "biome.the_history_update.lye_biome": "Lye Biome",
+      "item.the_history_update.limestone_armor_chestplate": "Limestone Chestplate",
+      "item.the_history_update.emerald_armor_armor_helmet": "EmeraldArmor Helmet",
+      "item.the_history_update.limestone_hoe": "Limestone Hoe",
+      "item.the_history_update.limestone_sword": "Limestone Sword",
       "item.the_history_update.herobrine_spawn_egg": "Herobrine Spawn Egg",
       "advancements.a.descr": "Get the Tribute to TheSavageNarwhal Music Disc",
       "item.the_history_update.emerald_pickaxe": "Emerald Pickaxe",
@@ -812,18 +1046,28 @@
       "block.the_history_update.the_cooking_table": "The Cooking Table",
       "item.the_history_update.the_beginning_book": "The Beginning",
       "subtitles.justdance": "",
+      "item.the_history_update.limestone_pickaxe": "Limestone Pickaxe",
       "item.the_history_update.music.desc": "A song that\u0027s in one of his videos.",
+      "item.the_history_update.limestone_armor_helmet": "Limestone Helmet",
       "entity.the_history_update.herobrine": "Herobrine",
       "item.the_history_update.music": "A Tribute to the SavageNarwhal",
+      "item.the_history_update.emerald_armor_armor_leggings": "EmeraldArmor Leggings",
+      "item.the_history_update.limestone_armor_leggings": "Limestone Leggings",
       "item.the_history_update.emerald_sword": "Emerald Sword",
+      "item.the_history_update.emerald_armor_armor_boots": "EmeraldArmor Boots",
+      "item.the_history_update.limestone_gem": "Limestone Crystal",
+      "item.the_history_update.limestone_axe": "Limestone Axe",
       "subtitles.outsidermusic": "",
       "item.the_history_update.emerald_shovel": "Emerald Shovel",
       "biome.the_history_update.the_lyre_biome": "The Lyre Biome",
+      "item.the_history_update.limestone_shovel": "Limestone Shovel",
       "item.the_history_update.ghoul_spawn_egg": "Ghoul Spawn Egg",
       "item.the_history_update.the_lyres": "The Lyres Portal Igniter",
       "item.the_history_update.emerald_axe": "Emerald Axe",
       "subtitles.thesavagenarwhal": "",
       "block.the_history_update.advanced_crafting_table": "Advanced Crafting Table",
+      "item.the_history_update.emerald_armor_armor_chestplate": "EmeraldArmor Chestplate",
+      "item.the_history_update.limestone_armor_boots": "Limestone Boots",
       "entity.the_history_update.ghoul": "Ghoul"
     }
   },
@@ -834,7 +1078,7 @@
   "workspaceSettings": {
     "modid": "the_history_update",
     "modName": "The Herobrine Update",
-    "version": "1.7.2",
+    "version": "Build 19",
     "description": "For once, we add Herobrine instead of deleting him.",
     "author": "Herobrine",
     "websiteURL": "https://mcreator.net",
