@@ -246,6 +246,10 @@ public class AdvancedTableUIGui extends TheHistoryUpdateModElements.ModElement {
 				}
 			}));
 			this.customSlots.put(16, this.addSlot(new SlotItemHandler(internal, 16, 124, 35) {
+				@Override
+				public boolean isItemValid(ItemStack stack) {
+					return false;
+				}
 			}));
 			int si;
 			int sj;

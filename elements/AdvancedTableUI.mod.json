@@ -297,11 +297,8 @@
         }
       },
       {
-        "type": "inputslot",
+        "type": "outputslot",
         "data": {
-          "inputLimit": {
-            "value": ""
-          },
           "id": 16,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,

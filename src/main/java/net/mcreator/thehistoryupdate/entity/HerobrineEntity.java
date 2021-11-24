@@ -24,7 +24,7 @@ import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.passive.AnimalEntity;
-import net.minecraft.entity.monster.MonsterEntity;
+import net.minecraft.entity.monster.ZombieEntity;
 import net.minecraft.entity.ai.goal.SwimGoal;
 import net.minecraft.entity.ai.goal.RandomWalkingGoal;
 import net.minecraft.entity.ai.goal.OpenDoorGoal;
@@ -42,7 +42,7 @@ import net.minecraft.entity.CreatureAttribute;
 
 import net.mcreator.thehistoryupdate.procedures.SpawnGhoulProcedure;
 import net.mcreator.thehistoryupdate.procedures.DupeGhoulProcedure;
-import net.mcreator.thehistoryupdate.item.LimestoneGemItem;
+import net.mcreator.thehistoryupdate.item.TokenofherobrineItem;
 import net.mcreator.thehistoryupdate.entity.renderer.HerobrineRenderer;
 import net.mcreator.thehistoryupdate.TheHistoryUpdateModElements;
 
@@ -83,11 +83,12 @@ public class HerobrineEntity extends TheHistoryUpdateModElements.ModElement {
 			ammma = ammma.createMutableAttribute(Attributes.ARMOR, 3);
 			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 10);
 			ammma = ammma.createMutableAttribute(Attributes.ATTACK_KNOCKBACK, 0.1);
+			ammma = ammma.createMutableAttribute(Attributes.ZOMBIE_SPAWN_REINFORCEMENTS);
 			event.put(entity, ammma.create());
 		}
 	}
 
-	public static class CustomEntity extends MonsterEntity {
+	public static class CustomEntity extends ZombieEntity {
 		public CustomEntity(FMLPlayMessages.SpawnEntity packet, World world) {
 			this(entity, world);
 		}
@@ -132,7 +133,7 @@ public class HerobrineEntity extends TheHistoryUpdateModElements.ModElement {
 
 		protected void dropSpecialItems(DamageSource source, int looting, boolean recentlyHitIn) {
 			super.dropSpecialItems(source, looting, recentlyHitIn);
-			this.entityDropItem(new ItemStack(LimestoneGemItem.block));
+			this.entityDropItem(new ItemStack(TokenofherobrineItem.block));
 		}
 
 		@Override

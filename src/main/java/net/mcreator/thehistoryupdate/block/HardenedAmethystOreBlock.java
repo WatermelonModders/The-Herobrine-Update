@@ -64,7 +64,7 @@ public class HardenedAmethystOreBlock extends TheHistoryUpdateModElements.ModEle
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(7.800000000000001f, 10.738625146497734f)
-					.setLightLevel(s -> 0).harvestLevel(5).harvestTool(ToolType.PICKAXE).setRequiresTool());
+					.setLightLevel(s -> 0).harvestLevel(4).harvestTool(ToolType.PICKAXE).setRequiresTool());
 			setRegistryName("hardened_amethyst_ore");
 		}
 
@@ -92,7 +92,7 @@ public class HardenedAmethystOreBlock extends TheHistoryUpdateModElements.ModEle
 
 		public boolean test(BlockState blockAt, Random random) {
 			boolean blockCriteria = false;
-			if (blockAt.getBlock() == Blocks.DIAMOND_ORE)
+			if (blockAt.getBlock() == Blocks.OBSIDIAN)
 				blockCriteria = true;
 			return blockCriteria;
 		}
@@ -119,7 +119,7 @@ public class HardenedAmethystOreBlock extends TheHistoryUpdateModElements.ModEle
 					return super.generate(world, generator, rand, pos, config);
 				}
 			};
-			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 2)).range(26)
+			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 4)).range(160)
 					.square().func_242731_b(4);
 			event.getRegistry().register(feature.setRegistryName("hardened_amethyst_ore"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("the_history_update:hardened_amethyst_ore"),

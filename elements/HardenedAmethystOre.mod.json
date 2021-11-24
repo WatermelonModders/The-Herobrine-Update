@@ -96,7 +96,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 5,
+    "breakHarvestLevel": 4,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
@@ -127,12 +127,12 @@
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "Blocks.DIAMOND_ORE"
+        "value": "Blocks.OBSIDIAN"
       }
     ],
     "frequencyPerChunks": 4,
-    "frequencyOnChunk": 2,
+    "frequencyOnChunk": 4,
     "minGenerateHeight": 1,
-    "maxGenerateHeight": 26
+    "maxGenerateHeight": 160
   }
 }

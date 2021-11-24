@@ -1025,6 +1025,24 @@
         "eb": true,
         "ec": true
       }
+    },
+    {
+      "name": "Tokenofherobrine",
+      "type": "item",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tokenofherobrine"
+    },
+    {
+      "name": "Underworldwriter",
+      "type": "recipe",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "underworldwriter"
     }
   ],
   "variable_elements": [],
@@ -1092,6 +1110,7 @@
       "advancements.a.title": "A Tribute to the SavageNarwhal",
       "block.the_history_update.deepslate_dirt": "Underworld Dirt",
       "item.the_history_update.the_lyre": "Lyre Frame Diagram",
+      "item.the_history_update.tokenofherobrine": "Tokenofherobrine",
       "block.the_history_update.lime_stone_ore": "Limestone Ore",
       "item.the_history_update.hardened_amethyst": "HardenedAmethyst",
       "item.the_history_update.emerald_armor_armor_helmet": "EmeraldArmor Helmet",

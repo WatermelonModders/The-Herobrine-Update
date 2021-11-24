@@ -12,7 +12,7 @@
       "value": "Blocks.OBSIDIAN"
     },
     "fluidBlock": {
-      "value": "Blocks.PORTAL"
+      "value": "Blocks.OBSIDIAN"
     },
     "canRespawnHere": false,
     "hasFog": false,

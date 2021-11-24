@@ -93,7 +93,7 @@ public class LimeStoneOreBlock extends TheHistoryUpdateModElements.ModElement {
 
 		public boolean test(BlockState blockAt, Random random) {
 			boolean blockCriteria = false;
-			if (blockAt.getBlock() == Blocks.IRON_ORE)
+			if (blockAt.getBlock() == Blocks.OBSIDIAN)
 				blockCriteria = true;
 			return blockCriteria;
 		}

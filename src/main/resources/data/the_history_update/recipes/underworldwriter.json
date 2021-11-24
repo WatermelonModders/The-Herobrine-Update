@@ -1,0 +1,19 @@
+{
+  "group": "the_history_update",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:flint_and_steel"
+    },
+    "1": {
+      "item": "minecraft:fire_charge"
+    }
+  },
+  "result": {
+    "item": "the_history_update:the_underworld",
+    "count": 1
+  }
+}

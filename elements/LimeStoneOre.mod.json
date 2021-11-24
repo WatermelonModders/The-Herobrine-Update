@@ -127,7 +127,7 @@
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "Blocks.IRON_ORE"
+        "value": "Blocks.OBSIDIAN"
       }
     ],
     "frequencyPerChunks": 10,

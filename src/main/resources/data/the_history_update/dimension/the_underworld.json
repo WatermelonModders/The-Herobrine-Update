@@ -57,10 +57,7 @@
         "Name": "minecraft:obsidian"
       },
       "default_fluid": {
-        "Name": "minecraft:nether_portal",
-        "Properties": {
-          "axis": "x"
-        }
+        "Name": "minecraft:obsidian"
       },
       "noise": {
         "density_factor": 0,
