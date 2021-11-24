@@ -2,7 +2,7 @@
   "_fv": 24,
   "_type": "block",
   "definition": {
-    "texture": "diamond_ore",
+    "texture": "hardenedamethyst_ore",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -11,9 +11,9 @@
     "renderType": 11,
     "customModelName": "Single texture",
     "rotationMode": 0,
-    "emissiveRendering": true,
+    "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "diamond_ore",
+    "itemTexture": "",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
@@ -32,20 +32,20 @@
         "subtract": false
       }
     ],
-    "name": "Limestone Ore",
+    "name": "HardenedAmethyst Ore",
     "specialInfo": [],
-    "hardness": 3.0,
-    "resistance": 20.0,
+    "hardness": 7.800000000000001,
+    "resistance": 10.738625146497734,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
       "value": "BUILDING_BLOCKS"
     },
-    "destroyTool": "axe",
+    "destroyTool": "pickaxe",
     "customDrop": {
-      "value": "CUSTOM:LimestoneGem"
+      "value": "CUSTOM:HardenedAmethyst"
     },
-    "dropAmount": 2,
+    "dropAmount": 1,
     "useLootTableForDrops": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
@@ -70,14 +70,14 @@
     "flammability": 0,
     "fireSpreadSpeed": 0,
     "isLadder": false,
-    "slipperiness": 1.0,
-    "speedFactor": 0.8,
-    "jumpFactor": 0.8,
+    "slipperiness": 0.6,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "METAL"
+      "value": "STONE"
     },
     "breakSound": {
       "value": ""
@@ -94,9 +94,9 @@
     "fallSound": {
       "value": ""
     },
-    "luminance": 3,
+    "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 3,
+    "breakHarvestLevel": 5,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
@@ -127,12 +127,12 @@
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "Blocks.IRON_ORE"
+        "value": "Blocks.DIAMOND_ORE"
       }
     ],
-    "frequencyPerChunks": 10,
-    "frequencyOnChunk": 16,
-    "minGenerateHeight": 0,
-    "maxGenerateHeight": 64
+    "frequencyPerChunks": 4,
+    "frequencyOnChunk": 2,
+    "minGenerateHeight": 1,
+    "maxGenerateHeight": 26
   }
 }

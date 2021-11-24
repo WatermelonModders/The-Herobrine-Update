@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "the_history_update:block/the_underworld_portal_ew"
+    },
+    "axis=x": {
+      "model": "the_history_update:block/the_underworld_portal_ns"
+    }
+  }
+}

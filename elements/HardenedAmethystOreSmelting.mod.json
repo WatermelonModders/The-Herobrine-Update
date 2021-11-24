@@ -1,0 +1,20 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 1.8199999999999998,
+    "cookingTime": 230,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:HardenedAmethystOre"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:HardenedAmethyst"
+    },
+    "name": "hardened_amethyst_ore_smelting",
+    "namespace": "mod"
+  }
+}

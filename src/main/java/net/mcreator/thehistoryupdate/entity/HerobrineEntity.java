@@ -42,6 +42,7 @@ import net.minecraft.entity.CreatureAttribute;
 
 import net.mcreator.thehistoryupdate.procedures.SpawnGhoulProcedure;
 import net.mcreator.thehistoryupdate.procedures.DupeGhoulProcedure;
+import net.mcreator.thehistoryupdate.item.LimestoneGemItem;
 import net.mcreator.thehistoryupdate.entity.renderer.HerobrineRenderer;
 import net.mcreator.thehistoryupdate.TheHistoryUpdateModElements;
 
@@ -131,7 +132,7 @@ public class HerobrineEntity extends TheHistoryUpdateModElements.ModElement {
 
 		protected void dropSpecialItems(DamageSource source, int looting, boolean recentlyHitIn) {
 			super.dropSpecialItems(source, looting, recentlyHitIn);
-			this.entityDropItem(new ItemStack(Items.NETHERITE_INGOT));
+			this.entityDropItem(new ItemStack(LimestoneGemItem.block));
 		}
 
 		@Override

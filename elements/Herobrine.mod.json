@@ -77,7 +77,7 @@
     "immuneToWither": false,
     "immuneToDragonBreath": false,
     "mobDrop": {
-      "value": "Items.NETHERITE_INGOT"
+      "value": "CUSTOM:LimestoneGem"
     },
     "livingSound": {
       "value": ""

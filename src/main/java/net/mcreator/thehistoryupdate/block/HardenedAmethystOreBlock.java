@@ -36,7 +36,7 @@ import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.thehistoryupdate.item.LimestoneGemItem;
+import net.mcreator.thehistoryupdate.item.HardenedAmethystItem;
 import net.mcreator.thehistoryupdate.TheHistoryUpdateModElements;
 
 import java.util.Random;
@@ -44,12 +44,12 @@ import java.util.List;
 import java.util.Collections;
 
 @TheHistoryUpdateModElements.ModElement.Tag
-public class LimeStoneOreBlock extends TheHistoryUpdateModElements.ModElement {
-	@ObjectHolder("the_history_update:lime_stone_ore")
+public class HardenedAmethystOreBlock extends TheHistoryUpdateModElements.ModElement {
+	@ObjectHolder("the_history_update:hardened_amethyst_ore")
 	public static final Block block = null;
 
-	public LimeStoneOreBlock(TheHistoryUpdateModElements instance) {
-		super(instance, 44);
+	public HardenedAmethystOreBlock(TheHistoryUpdateModElements instance) {
+		super(instance, 65);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}
@@ -63,10 +63,9 @@ public class LimeStoneOreBlock extends TheHistoryUpdateModElements.ModElement {
 
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.METAL).hardnessAndResistance(3f, 20f).setLightLevel(s -> 3).harvestLevel(3)
-					.harvestTool(ToolType.AXE).setRequiresTool().slipperiness(1f).speedFactor(0.8f).jumpFactor(0.8f)
-					.setNeedsPostProcessing((bs, br, bp) -> true).setEmmisiveRendering((bs, br, bp) -> true));
-			setRegistryName("lime_stone_ore");
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(7.800000000000001f, 10.738625146497734f)
+					.setLightLevel(s -> 0).harvestLevel(5).harvestTool(ToolType.PICKAXE).setRequiresTool());
+			setRegistryName("hardened_amethyst_ore");
 		}
 
 		@Override
@@ -79,7 +78,7 @@ public class LimeStoneOreBlock extends TheHistoryUpdateModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(LimestoneGemItem.block, (int) (2)));
+			return Collections.singletonList(new ItemStack(HardenedAmethystItem.block));
 		}
 	}
 
@@ -93,7 +92,7 @@ public class LimeStoneOreBlock extends TheHistoryUpdateModElements.ModElement {
 
 		public boolean test(BlockState blockAt, Random random) {
 			boolean blockCriteria = false;
-			if (blockAt.getBlock() == Blocks.IRON_ORE)
+			if (blockAt.getBlock() == Blocks.DIAMOND_ORE)
 				blockCriteria = true;
 			return blockCriteria;
 		}
@@ -106,7 +105,7 @@ public class LimeStoneOreBlock extends TheHistoryUpdateModElements.ModElement {
 	private static class FeatureRegisterHandler {
 		@SubscribeEvent
 		public void registerFeature(RegistryEvent.Register<Feature<?>> event) {
-			CUSTOM_MATCH = Registry.register(Registry.RULE_TEST, new ResourceLocation("the_history_update:lime_stone_ore_match"),
+			CUSTOM_MATCH = Registry.register(Registry.RULE_TEST, new ResourceLocation("the_history_update:hardened_amethyst_ore_match"),
 					() -> CustomRuleTest.codec);
 			feature = new OreFeature(OreFeatureConfig.CODEC) {
 				@Override
@@ -120,10 +119,11 @@ public class LimeStoneOreBlock extends TheHistoryUpdateModElements.ModElement {
 					return super.generate(world, generator, rand, pos, config);
 				}
 			};
-			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 16)).range(64)
-					.square().func_242731_b(10);
-			event.getRegistry().register(feature.setRegistryName("lime_stone_ore"));
-			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("the_history_update:lime_stone_ore"), configuredFeature);
+			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 2)).range(26)
+					.square().func_242731_b(4);
+			event.getRegistry().register(feature.setRegistryName("hardened_amethyst_ore"));
+			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("the_history_update:hardened_amethyst_ore"),
+					configuredFeature);
 		}
 	}
 

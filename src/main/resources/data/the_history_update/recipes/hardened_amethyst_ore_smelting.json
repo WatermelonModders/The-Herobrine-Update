@@ -1,0 +1,12 @@
+{
+  "group": "the_history_update",
+  "type": "minecraft:smelting",
+  "experience": 1.8199999999999998,
+  "cookingtime": 230,
+  "ingredient": {
+    "item": "the_history_update:hardened_amethyst_ore"
+  },
+  "result": {
+    "item": "the_history_update:hardened_amethyst"
+  }
+}

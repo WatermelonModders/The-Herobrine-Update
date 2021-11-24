@@ -1,0 +1,42 @@
+{
+  "group": "the_history_update",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "the_history_update:hardened_amethyst"
+    },
+    "1": {
+      "item": "the_history_update:hardened_amethyst"
+    },
+    "2": {
+      "item": "the_history_update:hardened_amethyst"
+    },
+    "3": {
+      "item": "the_history_update:hardened_amethyst"
+    },
+    "4": {
+      "item": "the_history_update:hardened_amethyst"
+    },
+    "5": {
+      "item": "the_history_update:hardened_amethyst"
+    },
+    "6": {
+      "item": "the_history_update:hardened_amethyst"
+    },
+    "7": {
+      "item": "the_history_update:hardened_amethyst"
+    },
+    "8": {
+      "item": "the_history_update:hardened_amethyst"
+    }
+  },
+  "result": {
+    "item": "the_history_update:hardened_amethyst_block",
+    "count": 1
+  }
+}
