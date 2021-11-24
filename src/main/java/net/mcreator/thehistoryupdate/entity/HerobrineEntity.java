@@ -23,7 +23,7 @@ import net.minecraft.item.Item;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.entity.passive.AnimalEntity;
-import net.minecraft.entity.monster.MonsterEntity;
+import net.minecraft.entity.monster.ZombieEntity;
 import net.minecraft.entity.ai.goal.SwimGoal;
 import net.minecraft.entity.ai.goal.RandomWalkingGoal;
 import net.minecraft.entity.ai.goal.OpenDoorGoal;
@@ -38,7 +38,6 @@ import net.minecraft.entity.EntityType;
 import net.minecraft.entity.EntityClassification;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.CreatureAttribute;
-import net.minecraft.entity.AgeableEntity;
 
 import net.mcreator.thehistoryupdate.procedures.SpawnGhoulProcedure;
 import net.mcreator.thehistoryupdate.procedures.DupeGhoulProcedure;
@@ -82,11 +81,12 @@ public class HerobrineEntity extends TheHistoryUpdateModElements.ModElement {
 			ammma = ammma.createMutableAttribute(Attributes.ARMOR, 3);
 			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 10);
 			ammma = ammma.createMutableAttribute(Attributes.ATTACK_KNOCKBACK, 0.1);
+			ammma = ammma.createMutableAttribute(Attributes.ZOMBIE_SPAWN_REINFORCEMENTS);
 			event.put(entity, ammma.create());
 		}
 	}
 
-	public static class CustomEntity extends MonsterEntity {
+	public static class CustomEntity extends ZombieEntity {
 		public CustomEntity(FMLPlayMessages.SpawnEntity packet, World world) {
 			this(entity, world);
 		}
@@ -109,7 +109,7 @@ public class HerobrineEntity extends TheHistoryUpdateModElements.ModElement {
 		@Override
 		protected void registerGoals() {
 			super.registerGoals();
-			this.targetSelector.addGoal(1, new NearestAttackableTargetGoal(this, AgeableEntity.class, true, true));
+			this.targetSelector.addGoal(1, new NearestAttackableTargetGoal(this, GhoulEntity.CustomEntity.class, false, true));
 			this.targetSelector.addGoal(2, new NearestAttackableTargetGoal(this, AnimalEntity.class, false, false));
 			this.goalSelector.addGoal(3, new MeleeAttackGoal(this, 1.2, false));
 			this.goalSelector.addGoal(4, new RandomWalkingGoal(this, 1));
@@ -131,7 +131,7 @@ public class HerobrineEntity extends TheHistoryUpdateModElements.ModElement {
 
 		protected void dropSpecialItems(DamageSource source, int looting, boolean recentlyHitIn) {
 			super.dropSpecialItems(source, looting, recentlyHitIn);
-			this.entityDropItem(new ItemStack(Items.NETHERITE_INGOT));
+			this.entityDropItem(new ItemStack(TokenofherobrineItem.block));
 		}
 
 		@Override
