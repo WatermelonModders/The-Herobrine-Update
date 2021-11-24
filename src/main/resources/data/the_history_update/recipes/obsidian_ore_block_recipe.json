@@ -1,0 +1,42 @@
+{
+  "group": "the_history_update",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "the_history_update:obsidian_ingot"
+    },
+    "1": {
+      "item": "the_history_update:obsidian_ingot"
+    },
+    "2": {
+      "item": "the_history_update:obsidian_ingot"
+    },
+    "3": {
+      "item": "the_history_update:obsidian_ingot"
+    },
+    "4": {
+      "item": "the_history_update:obsidian_ingot"
+    },
+    "5": {
+      "item": "the_history_update:obsidian_ingot"
+    },
+    "6": {
+      "item": "the_history_update:obsidian_ingot"
+    },
+    "7": {
+      "item": "the_history_update:obsidian_ingot"
+    },
+    "8": {
+      "item": "the_history_update:obsidian_ingot"
+    }
+  },
+  "result": {
+    "item": "the_history_update:obsidian_block",
+    "count": 1
+  }
+}

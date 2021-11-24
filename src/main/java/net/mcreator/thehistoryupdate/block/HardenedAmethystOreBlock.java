@@ -119,8 +119,8 @@ public class HardenedAmethystOreBlock extends TheHistoryUpdateModElements.ModEle
 					return super.generate(world, generator, rand, pos, config);
 				}
 			};
-			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 4)).range(160)
-					.square().func_242731_b(4);
+			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 1)).range(160)
+					.square().func_242731_b(1);
 			event.getRegistry().register(feature.setRegistryName("hardened_amethyst_ore"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("the_history_update:hardened_amethyst_ore"),
 					configuredFeature);

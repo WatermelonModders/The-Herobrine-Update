@@ -1,0 +1,23 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "CUSTOM:EmeraldHoe"
+    },
+    "smithingInputAdditionStack": {
+      "value": "CUSTOM:HardenedAmethyst"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:HardenedAmethystHoe"
+    },
+    "name": "ha_hoe_recipe",
+    "namespace": "mod"
+  }
+}

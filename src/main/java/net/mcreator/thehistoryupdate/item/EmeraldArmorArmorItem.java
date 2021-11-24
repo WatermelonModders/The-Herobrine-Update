@@ -31,7 +31,7 @@ public class EmeraldArmorArmorItem extends TheHistoryUpdateModElements.ModElemen
 	public static final Item boots = null;
 
 	public EmeraldArmorArmorItem(TheHistoryUpdateModElements instance) {
-		super(instance, 37);
+		super(instance, 103);
 	}
 
 	@Override
@@ -39,17 +39,17 @@ public class EmeraldArmorArmorItem extends TheHistoryUpdateModElements.ModElemen
 		IArmorMaterial armormaterial = new IArmorMaterial() {
 			@Override
 			public int getDurability(EquipmentSlotType slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 60;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 26;
 			}
 
 			@Override
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{8, 24, 20, 8}[slot.getIndex()];
+				return new int[]{3, 10, 9, 3}[slot.getIndex()];
 			}
 
 			@Override
 			public int getEnchantability() {
-				return 36;
+				return 15;
 			}
 
 			@Override
@@ -70,12 +70,12 @@ public class EmeraldArmorArmorItem extends TheHistoryUpdateModElements.ModElemen
 
 			@Override
 			public float getToughness() {
-				return 3f;
+				return 0f;
 			}
 
 			@Override
 			public float getKnockbackResistance() {
-				return 0.2f;
+				return 0f;
 			}
 		};
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(ItemGroup.COMBAT)) {

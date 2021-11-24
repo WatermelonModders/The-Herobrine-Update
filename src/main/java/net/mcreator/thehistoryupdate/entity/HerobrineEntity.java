@@ -22,7 +22,6 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.entity.player.ServerPlayerEntity;
-import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.passive.AnimalEntity;
 import net.minecraft.entity.monster.ZombieEntity;
 import net.minecraft.entity.ai.goal.SwimGoal;
@@ -111,7 +110,7 @@ public class HerobrineEntity extends TheHistoryUpdateModElements.ModElement {
 		@Override
 		protected void registerGoals() {
 			super.registerGoals();
-			this.targetSelector.addGoal(1, new NearestAttackableTargetGoal(this, PlayerEntity.class, false, true));
+			this.targetSelector.addGoal(1, new NearestAttackableTargetGoal(this, GhoulEntity.CustomEntity.class, false, true));
 			this.targetSelector.addGoal(2, new NearestAttackableTargetGoal(this, AnimalEntity.class, false, false));
 			this.goalSelector.addGoal(3, new MeleeAttackGoal(this, 1.2, false));
 			this.goalSelector.addGoal(4, new RandomWalkingGoal(this, 1));

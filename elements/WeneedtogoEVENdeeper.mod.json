@@ -20,6 +20,6 @@
     "parent": {
       "value": "CUSTOM:A"
     },
-    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"dimension_entered\" x=\"45\" y=\"50\"><field name=\"dimension\">CUSTOM:TheUnderworld</field><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"biome_entered\" x=\"-15\" y=\"88\"><field name=\"biome\">CUSTOM:TheUnderworldBiome</field><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
   }
 }

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "the_history_update:emerald_shovel"
+  },
+  "addition": {
+    "item": "the_history_update:hardened_amethyst"
+  },
+  "result": {
+    "item": "the_history_update:hardened_amethyst_shovel"
+  }
+}

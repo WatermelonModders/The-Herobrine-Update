@@ -1,0 +1,29 @@
+{
+  "group": "the_history_update",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "the_history_update:limestone_gem"
+    },
+    "1": {
+      "item": "the_history_update:limestone_gem"
+    },
+    "2": {
+      "item": "the_history_update:limestone_gem"
+    },
+    "3": {
+      "item": "the_history_update:limestone_gem"
+    },
+    "5": {
+      "item": "the_history_update:limestone_gem"
+    }
+  },
+  "result": {
+    "item": "the_history_update:limestone_armor_helmet",
+    "count": 1
+  }
+}

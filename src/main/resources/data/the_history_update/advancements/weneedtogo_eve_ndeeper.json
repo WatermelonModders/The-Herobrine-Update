@@ -16,9 +16,9 @@
   },
   "criteria": {
     "weneedtogo_eve_ndeeper": {
-      "trigger": "minecraft:changed_dimension",
+      "trigger": "minecraft:location",
       "conditions": {
-        "to": "the_history_update:the_underworld"
+        "biome": "the_history_update:the_underworld_biome"
       }
     }
   },

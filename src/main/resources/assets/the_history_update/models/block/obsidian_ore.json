@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "the_history_update:blocks/obsidian_ore",
+    "particle": "the_history_update:blocks/obsidian_ore"
+  }
+}

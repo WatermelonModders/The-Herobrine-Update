@@ -13,7 +13,7 @@
     "rotationMode": 0,
     "emissiveRendering": true,
     "displayFluidOverlay": false,
-    "itemTexture": "diamond_ore",
+    "itemTexture": "",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,

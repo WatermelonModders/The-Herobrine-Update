@@ -1,0 +1,13 @@
+{
+  "group": "the_history_update",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "the_history_update:obsidian_block"
+    }
+  ],
+  "result": {
+    "item": "the_history_update:obsidian_ingot",
+    "count": 9
+  }
+}

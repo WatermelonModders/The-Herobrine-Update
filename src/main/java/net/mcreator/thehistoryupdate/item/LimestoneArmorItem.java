@@ -30,7 +30,7 @@ public class LimestoneArmorItem extends TheHistoryUpdateModElements.ModElement {
 	public static final Item boots = null;
 
 	public LimestoneArmorItem(TheHistoryUpdateModElements instance) {
-		super(instance, 55);
+		super(instance, 93);
 	}
 
 	@Override
@@ -38,17 +38,17 @@ public class LimestoneArmorItem extends TheHistoryUpdateModElements.ModElement {
 		IArmorMaterial armormaterial = new IArmorMaterial() {
 			@Override
 			public int getDurability(EquipmentSlotType slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 53;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 32;
 			}
 
 			@Override
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{7, 21, 18, 7}[slot.getIndex()];
+				return new int[]{4, 13, 11, 4}[slot.getIndex()];
 			}
 
 			@Override
 			public int getEnchantability() {
-				return 32;
+				return 19;
 			}
 
 			@Override

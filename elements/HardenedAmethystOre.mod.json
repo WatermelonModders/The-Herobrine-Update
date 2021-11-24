@@ -130,8 +130,8 @@
         "value": "Blocks.OBSIDIAN"
       }
     ],
-    "frequencyPerChunks": 4,
-    "frequencyOnChunk": 4,
+    "frequencyPerChunks": 1,
+    "frequencyOnChunk": 1,
     "minGenerateHeight": 1,
     "maxGenerateHeight": 160
   }
