@@ -200,6 +200,15 @@
           "id": 12,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "AdvancedTableProcedure"
+          },
+          "onTakenFromSlot": {
+            "name": "AdvancedTableProcedure"
+          },
+          "onStackTransfer": {
+            "name": "AdvancedTableProcedure"
+          },
           "name": "Slot #12",
           "x": 132,
           "y": 44
@@ -227,6 +236,15 @@
           "id": 13,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "AdvancedTableProcedure"
+          },
+          "onTakenFromSlot": {
+            "name": "AdvancedTableProcedure"
+          },
+          "onStackTransfer": {
+            "name": "AdvancedTableProcedure"
+          },
           "name": "Slot #13",
           "x": 150,
           "y": 44
@@ -241,6 +259,15 @@
           "id": 14,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "AdvancedTableProcedure"
+          },
+          "onTakenFromSlot": {
+            "name": "AdvancedTableProcedure"
+          },
+          "onStackTransfer": {
+            "name": "AdvancedTableProcedure"
+          },
           "name": "Slot #14",
           "x": 168,
           "y": 44
@@ -255,6 +282,15 @@
           "id": 15,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "AdvancedTableProcedure"
+          },
+          "onTakenFromSlot": {
+            "name": "AdvancedTableProcedure"
+          },
+          "onStackTransfer": {
+            "name": "AdvancedTableProcedure"
+          },
           "name": "Slot #15",
           "x": 186,
           "y": 44
@@ -275,6 +311,9 @@
         }
       }
     ],
+    "onTick": {
+      "name": "AdvancedTableProcedure"
+    },
     "gridSettings": {
       "sx": 18,
       "sy": 18,

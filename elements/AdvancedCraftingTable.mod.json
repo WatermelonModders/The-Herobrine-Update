@@ -106,7 +106,7 @@
     "particleAmount": 4,
     "hasInventory": false,
     "guiBoundTo": "AdvancedTableUI",
-    "openGUIOnRightClick": true,
+    "openGUIOnRightClick": false,
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
@@ -121,6 +121,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onRightClicked": {
+      "name": "AdvancedCraftingTableOnBlockRightClicked"
+    },
     "onTickUpdate": {
       "name": "AdvancedTableProcedure"
     },
