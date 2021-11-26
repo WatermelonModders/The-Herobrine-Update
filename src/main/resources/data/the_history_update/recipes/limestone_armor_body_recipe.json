@@ -1,0 +1,39 @@
+{
+  "group": "the_history_update",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "the_history_update:limestone"
+    },
+    "2": {
+      "item": "the_history_update:limestone"
+    },
+    "3": {
+      "item": "the_history_update:limestone"
+    },
+    "4": {
+      "item": "the_history_update:limestone"
+    },
+    "5": {
+      "item": "the_history_update:limestone"
+    },
+    "6": {
+      "item": "the_history_update:limestone"
+    },
+    "7": {
+      "item": "the_history_update:limestone"
+    },
+    "8": {
+      "item": "the_history_update:limestone"
+    }
+  },
+  "result": {
+    "item": "the_history_update:limestone_armor_chestplate",
+    "count": 1
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "the_history_update:blocks/sweet_berry_bush_stage3",
+    "particle": "the_history_update:blocks/sweet_berry_bush_stage3"
+  }
+}

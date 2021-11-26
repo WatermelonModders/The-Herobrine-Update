@@ -1,0 +1,42 @@
+{
+  "group": "the_history_update",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "the_history_update:oil_vein"
+    },
+    "1": {
+      "item": "the_history_update:oil_vein"
+    },
+    "2": {
+      "item": "the_history_update:oil_vein"
+    },
+    "3": {
+      "item": "the_history_update:oil_vein"
+    },
+    "4": {
+      "item": "the_history_update:oil_vein"
+    },
+    "5": {
+      "item": "the_history_update:oil_vein"
+    },
+    "6": {
+      "item": "the_history_update:oil_vein"
+    },
+    "7": {
+      "item": "the_history_update:oil_vein"
+    },
+    "8": {
+      "item": "the_history_update:oil_vein"
+    }
+  },
+  "result": {
+    "item": "the_history_update:oil_vein_block",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "group": "the_history_update",
+  "type": "minecraft:smelting",
+  "experience": 1,
+  "cookingtime": 400,
+  "ingredient": {
+    "item": "the_history_update:raw_snow_berrie_pie"
+  },
+  "result": {
+    "item": "the_history_update:snow_berrie_pie"
+  }
+}

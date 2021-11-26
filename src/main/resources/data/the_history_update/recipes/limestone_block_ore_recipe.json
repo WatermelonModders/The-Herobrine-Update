@@ -1,0 +1,13 @@
+{
+  "group": "the_history_update",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "the_history_update:limestone_block"
+    }
+  ],
+  "result": {
+    "item": "the_history_update:limestone",
+    "count": 9
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "the_history_update:block/hardened_amethyst_block"
+    }
+  }
+}

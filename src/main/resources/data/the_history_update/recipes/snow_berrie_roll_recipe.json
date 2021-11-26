@@ -1,0 +1,22 @@
+{
+  "group": "the_history_update",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:bread"
+    },
+    "1": {
+      "item": "the_history_update:snow_berries"
+    },
+    "2": {
+      "item": "minecraft:bread"
+    }
+  },
+  "result": {
+    "item": "the_history_update:snow_berrie_roll",
+    "count": 1
+  }
+}
